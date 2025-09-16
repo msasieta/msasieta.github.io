@@ -36,4 +36,3 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 # Both are supported on GitHub Pages; if you ever build locally, these help RSS & SEO.
-```

@@ -1,48 +1,70 @@
-/* Make header clean, inline */
+/* ===========================
+   Header & Navigation
+   =========================== */
 .site-header .site-title { 
-  font-weight: 600; 
-  font-size: 1.25rem; 
+  font-weight: 400;   /* thinner than before */
+  font-size: 1.1rem; 
   margin-right: 1rem; 
 }
+
 .site-nav.no-burger .trigger, 
 .site-nav.no-burger #nav-trigger, 
 .site-nav.no-burger label[for="nav-trigger"] { 
   display: none !important; 
 }
+
 .site-nav.no-burger .page-link { 
   display: inline-block; 
   margin-left: 0.75rem; 
+  font-weight: 300;
 }
 
-/* Make nav links slightly bolder and underline on hover */
-.site-nav .page-link {
-  font-weight: 500;
-  padding: 0.25rem 0.5rem;
-  text-decoration: none;
-}
 .site-nav .page-link:hover {
   text-decoration: underline;
 }
 
-/* Highlight current page link */
 .site-nav .page-link[aria-current="page"] {
-  font-weight: 600;
+  font-weight: 400;
   border-bottom: 2px solid #333;
 }
 
-/* Global text */
+/* ===========================
+   Global Typography
+   =========================== */
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Helvetica, Arial, sans-serif;
+  font-weight: 300;    /* Light, thin */
   font-size: 17px;
   line-height: 1.65;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Headings */
-h1, h2, h3 {
-  font-weight: 600;
-  letter-spacing: -0.02em;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;    /* normal weight headings */
+  letter-spacing: -0.01em;
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
 }
 
+/* ===========================
+   Links
+   =========================== */
+a {
+  color: #004aad;      /* UC Berkeley-like blue */
+  font-weight: 300;
+  text-decoration: none;
+}
+a:hover {
+  color: #002f6c;
+  text-decoration: underline;
+}
+
+/* ===========================
+   Content Images
+   =========================== */
 .page-content img {
   max-width: 90%;
   margin: 1rem auto;
@@ -50,6 +72,9 @@ h1, h2, h3 {
   border-radius: 6px;
 }
 
+/* ===========================
+   Footer
+   =========================== */
 .site-footer {
   text-align: center;
   font-size: 0.9rem;
@@ -61,40 +86,4 @@ h1, h2, h3 {
 .site-footer .social-media-list li {
   display: inline-block;
   margin: 0 0.5rem;
-}
-
-a {
-  color: #004aad; /* UC Berkeley-like blue */
-}
-a:hover {
-  color: #002f6c;
-}
-
-/* Global typography with web-safe system fonts */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-               Helvetica, Arial, sans-serif;
-  font-weight: 300;   /* Light */
-  font-size: 17px;
-  line-height: 1.65;
-  color: #222;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;   /* Normal, a bit stronger than body */
-  letter-spacing: -0.01em;
-  margin-top: 1.4em;
-  margin-bottom: 0.6em;
-}
-
-/* Links */
-a {
-  color: #004aad;     /* Subtle accent */
-  font-weight: 300;
-  text-decoration: none;
-}
-a:hover {
-  color: #002f6c;
-  text-decoration: underline;
 }

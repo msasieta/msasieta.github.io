@@ -4,8 +4,8 @@
     {%- assign page_paths    = site.minima.nav_pages | default: default_paths -%}
     {%- assign page_titles   = site.pages | map: 'title' | compact -%}
 
-    <!-- Optional: plain text title, not a link -->
-    <span class="site-title">{{ site.title | escape }}</span>
+    <!-- Link title -->
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
     {%- unless page_titles == empty -%}
       <nav class="site-nav no-burger">

@@ -7,6 +7,8 @@ remote_theme: jekyll/minima
 url: "https://msasieta.github.io"   # ← change to your username site or custom domain
 baseurl: ""                                 # keep empty for user site
 
+google-site-verification: google0df27337871709e9.html
+
 # Minima theme options
 minima:
   date_format: "%b %-d, %Y"

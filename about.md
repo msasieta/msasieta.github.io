@@ -6,11 +6,7 @@ permalink: /about/
 
 ![profile](/assets/profile.jpg){:style="width:180px;border-radius:12px;"}
 
-Hi! I’m **Martin Sasieta**, a postdoc working on quantum gravity and high‑energy theory. My recent work explores:
-
-- Entanglement and geometry (wormholes/ER bridges, replica saddles)
-- Random circuits, Brownian SYK/GUE, and typical black holes
-- Python’s Lunch and interior reconstruction in holography
+Hi! I’m **Martin Sasieta**, a postdoc in theoretical physics working on quantum gravity. 
 
 Previously: PhD at <institution>, with visits to <institutions>. Now at UC Berkeley (example).
 

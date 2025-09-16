@@ -69,3 +69,32 @@ a {
 a:hover {
   color: #002f6c;
 }
+
+/* Global typography with web-safe system fonts */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Helvetica, Arial, sans-serif;
+  font-weight: 300;   /* Light */
+  font-size: 17px;
+  line-height: 1.65;
+  color: #222;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;   /* Normal, a bit stronger than body */
+  letter-spacing: -0.01em;
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
+}
+
+/* Links */
+a {
+  color: #004aad;     /* Subtle accent */
+  font-weight: 300;
+  text-decoration: none;
+}
+a:hover {
+  color: #002f6c;
+  text-decoration: underline;
+}

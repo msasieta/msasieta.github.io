@@ -13,3 +13,59 @@
   display: inline-block; 
   margin-left: 0.75rem; 
 }
+
+/* Make nav links slightly bolder and underline on hover */
+.site-nav .page-link {
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+}
+.site-nav .page-link:hover {
+  text-decoration: underline;
+}
+
+/* Highlight current page link */
+.site-nav .page-link[aria-current="page"] {
+  font-weight: 600;
+  border-bottom: 2px solid #333;
+}
+
+/* Global text */
+body {
+  font-size: 17px;
+  line-height: 1.65;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.page-content img {
+  max-width: 90%;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+.site-footer .social-media-list {
+  margin-top: 0.5rem;
+}
+.site-footer .social-media-list li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+a {
+  color: #004aad; /* UC Berkeley-like blue */
+}
+a:hover {
+  color: #002f6c;
+}

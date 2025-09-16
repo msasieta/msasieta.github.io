@@ -7,7 +7,7 @@ remote_theme: jekyll/minima
 url: "https://msasieta.github.io"   # ← change to your username site or custom domain
 baseurl: ""                                 # keep empty for user site
 
-google-site-verification: google0df27337871709e9.html
+google_site_verification: "shE0rvKqTEqGRHXvdzaDod0sHekIfbF9MUmkQsUTCw4"
 
 # Minima theme options
 minima:

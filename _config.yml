@@ -10,31 +10,34 @@ baseurl: ""                                 # keep empty for user site
 google_site_verification: "shE0rvKqTEqGRHXvdzaDod0sHekIfbF9MUmkQsUTCw4"
 google_analytics: G-12169100719
 
-# Minima theme options
-minima:
-  date_format: "%b %-d, %Y"
-  social_links:
-    - { platform: email,          user_url: "mailto:msasieta@berkeley.edu", icon: "envelope",        style: "solid" }
-    - { platform: inspire,        user_url: "https://inspirehep.net/authors/1739705?ui-citation-summary=true" }
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=ZKwaV5cAAAAJ", icon: "graduation-cap", style: "solid" }
-    - { platform: arxiv,          user_url: "https://arxiv.org/search/hep-th?searchtype=author&query=Sasieta,+M", icon: "archive", style: "solid" }
-    - { platform: orcid,          user_url: "https://orcid.org/0000-0003-1056-6000", icon: "orcid", style: "brands" }
-    - { platform: x,              user_url: "https://x.com/martinsasieta", icon: "x-twitter", style: "brands" }
-  hide_site_feed_link: true
-    
+
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Navigation: which pages appear in the header
 minima:
+  # force header order
   nav_pages:
     - index.md   # Home
-    - about.md   # About
     - notes.md   # Notes
     - misc.md    # Misc
     - cv.md      # CV
+
+  # footer date format (optional)
+  date_format: "%b %-d, %Y"
+
+  # footer icons/links
+  social_links:
+    - { platform: email,          user_url: "mailto:msasieta@berkeley.edu", icon: "envelope",       style: "solid" }
+    - { platform: inspire,        user_url: "https://inspirehep.net/authors/1739705?ui-citation-summary=true" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=ZKwaV5cAAAAJ", icon: "graduation-cap", style: "solid" }
+    - { platform: arxiv,          user_url: "https://arxiv.org/search/hep-th?searchtype=author&query=Sasieta,+M", icon: "archive", style: "solid" }
+    - { platform: orcid,          user_url: "https://orcid.org/0000-0003-1056-6000", icon: "orcid", style: "brands" }
+    - { platform: x,              user_url: "https://x.com/martinsasieta", icon: "x-twitter", style: "brands" }
+
+  # hide RSS icon
+  hide_site_feed_link: true
 
 # Plugins that are whitelisted on GitHub Pages
 plugins:

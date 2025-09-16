@@ -30,6 +30,7 @@ kramdown:
 # Navigation: which pages appear in the header
 header_pages:
   - index.md
+  - about.md
   - notes.md
   - misc.md
   - cv.md

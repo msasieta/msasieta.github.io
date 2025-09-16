@@ -29,11 +29,11 @@ kramdown:
 
 # Navigation: which pages appear in the header
 header_pages:
-  - index.md
-  - about.md
-  - notes.md
-  - misc.md
-  - cv.md
+  - index.md    # Home
+  - about.md    # About
+  - notes.md    # Notes
+  - misc.md     # Misc
+  - cv.md       # CV
 
 # Plugins that are whitelisted on GitHub Pages
 plugins:

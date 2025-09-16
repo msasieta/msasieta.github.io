@@ -1,10 +1,16 @@
 /* ===========================
    Header & Navigation
    =========================== */
+
 .site-header .site-title { 
-  font-weight: 400;   /* thinner than before */
-  font-size: 1.1rem; 
-  margin-right: 1rem; 
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Helvetica, Arial, sans-serif;
+  font-weight: 300;       /* Light */
+  font-size: 1.1rem;      /* Slightly smaller */
+  letter-spacing: 0.02em; /* Opens up the text a bit */
+  margin-right: 1rem;
+  color: #222;            /* Softer black */
+  text-transform: none;   /* Keeps natural capitalization */
 }
 
 .site-nav.no-burger .trigger, 

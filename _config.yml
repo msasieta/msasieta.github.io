@@ -1,3 +1,265 @@
-title: "Martin Sasieta's personal webpage"
-description: "Personal site"
-theme: jekyll-theme-minimal
+title: "Martin Sasieta"
+description: "Quantum gravity & high‑energy theory"
+# Built-in GitHub Pages theme
+remote_theme: jekyll/minima
+
+# Site-wide settings
+url: "https://msasieta.github.io"   # ← change to your username site or custom domain
+baseurl: ""                                 # keep empty for user site
+
+# Minima theme options
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: email,  user_url: "mailto:msasieta@berkeley.edu" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=XXXXX" }
+    - { platform: orcid, user_url: "https://orcid.org/0000-0000-0000-0000" }
+    - { platform: arxiv, user_url: "https://arxiv.org/a/lastname_m_1.html" }
+    - { platform: x, user_url: "https://x.com/<handle>" }
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Navigation: which pages appear in the header
+header_pages:
+  - about.md
+  - research.md
+  - publications.md
+  - talks.md
+  - teaching.md
+  - cv.md
+
+# Plugins that are whitelisted on GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+# Both are supported on GitHub Pages; if you ever build locally, these help RSS & SEO.
+```
+
+---
+
+## 2) `index.md` (home)
+
+```markdown
+---
+layout: home
+title: "Home"
+---
+
+# Martin Sasieta
+*Postdoctoral Researcher, Quantum Gravity*
+
+Welcome! I study quantum gravity, black holes, wormholes, and holography (AdS/CFT), with a focus on randomness, Brownian circuits, entanglement, and complexity. This site collects my papers, talks, teaching, and notes.
+
+- See **[Research](/research)** for current projects and interests.
+- Browse **[Publications](/publications)** with links to arXiv.
+- Find materials under **[Talks](/talks)** and **[Teaching](/teaching)**.
+- Grab a one‑page **[CV](/cv)**.
+
+If you’re a student interested in these topics, feel free to reach out.
+```
+
+---
+
+## 3) `about.md`
+
+```markdown
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+![profile](/assets/profile.jpg){:style="width:180px;border-radius:12px;"}
+
+Hi! I’m **Martin Sasieta**, a postdoc working on quantum gravity and high‑energy theory. My recent work explores:
+
+- Entanglement and geometry (wormholes/ER bridges, replica saddles)
+- Random circuits, Brownian SYK/GUE, and typical black holes
+- Python’s Lunch and interior reconstruction in holography
+
+Previously: PhD at <institution>, with visits to <institutions>. Now at UC Berkeley (example).
+
+**Contact**  
+📧 martin.sasieta@example.com  
+📄 [CV (PDF)](/assets/cv.pdf)  
+🔗 [Google Scholar](https://scholar.google.com/...) · [arXiv](https://arxiv.org/a/...) · [ORCID](https://orcid.org/...) · [GitHub](https://github.com/...)  
+```
+
+---
+
+## 4) `research.md`
+
+```markdown
+---
+layout: page
+title: Research
+permalink: /research/
+---
+
+I’m broadly interested in quantum gravity, holography, and many‑body quantum chaos. Current directions include:
+
+## Typical interior geometry from randomness
+How ensembles of Brownian evolutions generate wormholes and black‑hole microstates; path‑integral saddles, overlaps, and Hilbert‑space dimension estimates.
+
+## Python’s Lunch & reconstruction
+Quantitative conditions for “lunches” to form and their relation to code subspaces, complexity bounds, and tensor‑network models with computational covariance.
+
+## Entanglement structures in AdS/CFT
+Replica geometries, baby universes, and constraints from modular flow, with applications to information recovery.
+
+*For preprints and papers, see* [Publications](/publications).
+```
+
+---
+
+## 5) `publications.md`
+
+```markdown
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+
+(*Selected. See Google Scholar for the full list.*)
+
+1. **Random Circuits in the Black Hole Interior** (2025).  
+   M. Sasieta, A. Collaborator. *Journal/Preprint*.  
+   arXiv:2501.01234 · [PDF](https://arxiv.org/pdf/2501.01234)
+
+2. **All Bridges Lead to Black Hole Entropy** (2024).  
+   M. Sasieta, B. Collaborator, C. Collaborator. *Preprint*.  
+   arXiv:2412.03456 · [PDF](https://arxiv.org/pdf/2412.03456)
+
+3. **Locality on the Menu: the Python’s Lunch** (2024).  
+   M. Sasieta et al. *Preprint*.  
+   arXiv:2409.00000 · [PDF](https://arxiv.org/pdf/2409.00000)
+
+(*Replace with your real items; you can format in plain Markdown or use a BibTeX workflow later.*)
+```
+
+---
+
+## 6) `talks.md`
+
+```markdown
+---
+layout: page
+title: Talks
+permalink: /talks/
+---
+
+- **Stanford Strings Seminar** — *Randomness & Geometry in AdS3* (Aug 28, 2025).  
+  [slides.pdf](/assets/talks/2025-08-stanford-slides.pdf) · [video](#)
+- **Eurostrings** — *Counting Brownian Circuits & Typical Black Holes* (Jun 2025).  
+  [abstract](/assets/talks/2025-06-eurostrings-abstract.txt)
+```
+
+---
+
+## 7) `teaching.md`
+
+```markdown
+---
+layout: page
+title: Teaching
+permalink: /teaching/
+---
+
+- **Quantum Field Theory I (GRA)** — Guest lectures on path integrals & anomalies; problem sets and notes below.  
+  [PS1.pdf](/assets/teaching/ps1.pdf) · [Notes: replica wormholes](/assets/teaching/replica-notes.pdf)
+
+- **Holography Reading Group** — Topics: JLMS, Python’s Lunch, Brownian SYK.  
+  [Reading list](/assets/teaching/holo-reading-list.md)
+```
+
+---
+
+## 8) `cv.md`
+
+```markdown
+---
+layout: page
+title: CV
+permalink: /cv/
+---
+
+You can download a recent CV as PDF:
+
+- **[CV (PDF)](/assets/cv.pdf)**
+
+Last updated: Sept 2025.
+```
+
+---
+
+## 9) `assets/` folder (create these paths)
+
+Create the folders in your repo:
+
+```
+assets/
+  profile.jpg            # your headshot (optional)
+  cv.pdf                 # your CV file
+  talks/
+    2025-08-stanford-slides.pdf
+    2025-06-eurostrings-abstract.txt
+  teaching/
+    ps1.pdf
+    replica-notes.pdf
+    holo-reading-list.md
+```
+
+You can add more files later; links above will start working once the files are present.
+
+---
+
+## 10) Optional: `CNAME` (for a custom domain)
+
+If you have a custom domain:
+
+```
+martinsasieta.com
+```
+
+Then point DNS to GitHub and commit the `CNAME` file above.
+
+---
+
+## 11) README (optional helper)
+
+```markdown
+# Martin Sasieta — Personal Site
+
+Powered by Jekyll + minima on GitHub Pages.
+
+## Local preview (optional)
+If you want to build locally:
+
+1. Install Ruby and Bundler.
+2. Add a `Gemfile` containing:
+```
+
+source "[https://rubygems.org](https://rubygems.org)"
+gem "github-pages", group: \:jekyll\_plugins
+
+```
+3. Run `bundle install` then `bundle exec jekyll serve`.
+4. Visit `http://localhost:4000`.
+
+(You don’t need this for GitHub Pages to work—GitHub builds it for you.)
+```
+
+---
+
+### How to use this
+
+1. Create/confirm your repo is named `<your-username>.github.io`.
+2. Copy the files above into the repo root (create folders as noted).
+3. Commit & push. In **Settings → Pages**, set Source to **Deploy from branch** on `main`.
+4. Refresh `https://<your-username>.github.io`.
+
+Need tweaks (custom palette, fonts, sidebar, dark mode, or a publications BibTeX pipeline)? Tell me your preferences and I’ll extend this starter.

@@ -1,0 +1,15 @@
+/* Make header clean, inline */
+.site-header .site-title { 
+  font-weight: 600; 
+  font-size: 1.25rem; 
+  margin-right: 1rem; 
+}
+.site-nav.no-burger .trigger, 
+.site-nav.no-burger #nav-trigger, 
+.site-nav.no-burger label[for="nav-trigger"] { 
+  display: none !important; 
+}
+.site-nav.no-burger .page-link { 
+  display: inline-block; 
+  margin-left: 0.75rem; 
+}

@@ -4,6 +4,6 @@ title: CV
 permalink: /cv/
 ---
 
-You can view my CV here:
+You can download my most recent CV here:
 
-- **[Curriculum Vitae (Overleaf)](https://www.overleaf.com/read/<randomstring>)**
+- **[CV (PDF)](/assets/cv.pdf)**

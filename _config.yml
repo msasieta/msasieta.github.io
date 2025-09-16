@@ -15,11 +15,11 @@ minima:
   date_format: "%b %-d, %Y"
   social_links:
     - { title: "Email",           icon: "envelope",        style: "solid",  url: "mailto:msasieta@berkeley.edu" }
+    - { platform: inspire, user_url: "https://inspirehep.net/authors/1739705?ui-citation-summary=true" }    
     - { title: "Google Scholar",  icon: "graduation-cap",  style: "solid",  url: "https://scholar.google.com/citations?user=ZKwaV5cAAAAJ" }
-    - { title: "ORCID",           icon: "orcid",           style: "brands", url: "https://orcid.org/0000-0003-1056-6000" }
     - { title: "arXiv",           icon: "archive",         style: "solid",  url: "https://arxiv.org/search/hep-th?searchtype=author&query=Sasieta,+M" }
+    - { title: "ORCID",           icon: "orcid",           style: "brands", url: "https://orcid.org/0000-0003-1056-6000" }
     - { title: "X / Twitter",     icon: "x-twitter",       style: "brands", url: "https://x.com/martinsasieta" }
-    - { platform: inspire, user_url: "https://inspirehep.net/authors/1739705?ui-citation-summary=true" }      
   hide_site_feed_link: true
     
 # Build settings

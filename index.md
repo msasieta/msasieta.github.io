@@ -1,7 +1,9 @@
 ---
 layout: home
 title: "Home"
+permalink: /
 ---
+
 
 # Martin Sasieta
 *Postdoctoral Researcher, Quantum Gravity*

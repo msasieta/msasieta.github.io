@@ -20,3 +20,10 @@
   </li>
 {%- endunless %}
 </ul>
+
+{%- when "inspire" -%}
+  <a href="{{ entry.user_url }}" title="INSPIRE HEP">
+    <svg class="svg-icon grey">
+      <use xlink:href="{{ '/assets/minima-social-icons.svg#inspire' | relative_url }}"></use>
+    </svg>
+  </a>

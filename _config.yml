@@ -15,10 +15,11 @@ minima:
   date_format: "%b %-d, %Y"
   social_links:
     - { platform: email,  user_url: "mailto:msasieta@berkeley.edu" }
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=XXXXX" }
-    - { platform: orcid, user_url: "https://orcid.org/0000-0000-0000-0000" }
-    - { platform: arxiv, user_url: "https://arxiv.org/a/lastname_m_1.html" }
-    - { platform: x, user_url: "https://x.com/<handle>" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=ZKwaV5cAAAAJ&hl=es&oi=ao" }
+    - { platform: orcid, user_url: "https://orcid.org/0000-0003-1056-6000" }
+    - { platform: arxiv, user_url: "https://arxiv.org/a/sasieta_m_1.html" }
+    - { platform: x, user_url: "https://x.com/martinsasieta" }
+    - { platform: inspire, user_url: "https://inspirehep.net/authors/1739705?ui-citation-summary=true" }
 
 # Build settings
 markdown: kramdown

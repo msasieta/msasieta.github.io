@@ -28,12 +28,13 @@ kramdown:
   input: GFM
 
 # Navigation: which pages appear in the header
-header_pages:
-  - index.md    # Home
-  - about.md    # About
-  - notes.md    # Notes
-  - misc.md     # Misc
-  - cv.md       # CV
+minima:
+  nav_pages:
+    - index.md   # Home
+    - about.md   # About
+    - notes.md   # Notes
+    - misc.md    # Misc
+    - cv.md      # CV
 
 # Plugins that are whitelisted on GitHub Pages
 plugins:

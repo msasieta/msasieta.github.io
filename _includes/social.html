@@ -1,9 +1,20 @@
 <ul class="social-media-list">
 {%- for entry in site.minima.social_links -%}
-  <li>
-    <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title | default: entry.platform | default: '' }}">
-      <span class="grey fa-{{ entry.style | default: 'brands' }} fa-{{ entry.icon }} fa-lg"></span>
-    </a>
-  </li>
+  {%- case entry.platform -%}
+    {%- when "inspire" -%}
+      <li>
+        <a href="{{ entry.user_url }}" title="INSPIRE HEP" target="_blank">
+          <svg class="svg-icon grey">
+            <use xlink:href="{{ '/assets/minima-social-icons.svg#inspire' | relative_url }}"></use>
+          </svg>
+        </a>
+      </li>
+    {%- else -%}
+      <li>
+        <a href="{{ entry.user_url }}" title="{{ entry.platform | capitalize }}" target="_blank">
+          <span class="grey fa-{{ entry.style | default: 'brands' }} fa-{{ entry.icon }} fa-lg"></span>
+        </a>
+      </li>
+  {%- endcase -%}
 {%- endfor -%}
 </ul>

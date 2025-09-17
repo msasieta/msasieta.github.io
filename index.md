@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="profile-header">
-  <img src="/assets/images/profile.jpg" alt="Martin Sasieta" class="profile-photo">
+  #<img src="/assets/images/profile.jpg" alt="Martin Sasieta" class="profile-photo">
   <div class="profile-text">
     <h1>Martin Sasieta</h1>
     <p><em>Postdoctoral Scholar<br>

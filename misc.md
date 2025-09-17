@@ -12,7 +12,7 @@ permalink: /misc/
 
 This is where I keep a few things outside of research — notes, side projects, and other interests.
 
-## My Dog 🐾 — Mini Gallery
+## My Dogs 
 
 <div class="gallery">
   <a href="/assets/images/dog/mikela.jpg" target="_blank">

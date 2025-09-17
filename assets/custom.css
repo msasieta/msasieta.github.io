@@ -34,6 +34,22 @@
   border-bottom: 2px solid #333;
 }
 
+/* Make only 'Martin Sasieta' bold in the site title */
+.site-title::before {
+  content: "Martin Sasieta";
+  font-weight: 600;    /* bold */
+  margin-right: 0.3rem;
+}
+
+.site-title {
+  font-weight: 300;    /* light for the rest */
+}
+
+.site-title::after {
+  content: " | Personal Homepage";
+  font-weight: 300;    /* normal */
+}
+
 /* ===========================
    Global Typography
    =========================== */

@@ -13,7 +13,7 @@ permalink: /
     <p><a href="mailto:msasieta@berkeley.edu">msasieta@berkeley.edu</a></p>
     <p>
       I am a postdoctoral scholar in theoretical physics at the University of California, Berkeley. 
-      My work focuses on quantum gravity and high-energy theory, with particular interest in black holes, 
+      My work focuses on quantum gravity and quantum cosmology, with particular interest in black holes, 
       holography, quantum chaos and quantum information.
     </p>
   </div>

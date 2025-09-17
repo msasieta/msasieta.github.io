@@ -15,4 +15,4 @@ This is where I keep a few things outside of research — notes, side projects, 
 ## My Dog 🐾
 Meet Mikela!  
 
-![Mikela](/assets/images/dog/mikela.jpg){:style="max-width:400px; border-radius:12px; margin:1rem 0;"}
+[![Mikela](/assets/images/dog/mikela.jpg){:style="max-width:400px; border-radius:12px; margin:1rem 0;"}](/assets/images/dog/mikela.jpg){:target="_blank"}

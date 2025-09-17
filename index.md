@@ -14,4 +14,4 @@ permalink: /
   </div>
 </div>
 
----
+Welcome to my homepage.

@@ -145,7 +145,7 @@ a:hover {
   height: 150px !important;
   max-width: none !important;
   margin: 0 !important;
-  border-radius: 6px;   /* less rounded corners */
+  border-radius: 0px;   /* less rounded corners */
   object-fit: cover;
   display: block;
 }

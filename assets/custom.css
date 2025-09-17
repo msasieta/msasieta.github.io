@@ -167,7 +167,9 @@ a:hover {
 }
 
 .profile-text {
-  max-width: 600px;         /* keep paragraphs from stretching too wide */
+  max-width: 650px;         /* keep text line length readable */
+  text-align: left;         /* left-aligned text */
+  width: 100%;              /* makes sure it spans container */
 }
 
 

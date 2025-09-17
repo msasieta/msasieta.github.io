@@ -6,9 +6,8 @@ permalink: /about/
 
 ![profile](/assets/profile.jpg){:style="width:180px;border-radius:12px;"}
 
-Hi! I’m **Martin Sasieta**, a postdoc in theoretical physics working on quantum gravity. 
+I am a theoretical physicist working on quantum gravity and its interface with quantum information. 
 
-Previously: PhD at <institution>, with visits to <institutions>. Now at UC Berkeley (example).
 
 **Contact**  
 📧 martin.sasieta@example.com  

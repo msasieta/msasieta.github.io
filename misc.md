@@ -5,8 +5,6 @@ permalink: /misc/
 ---
 
 
-# Misc
-
 This is where I keep a few things outside of research — notes, side projects, and other interests.
 
 ## My Dogs
@@ -16,7 +14,7 @@ This is where I keep a few things outside of research — notes, side projects, 
     <a href="/assets/images/dog/mikela.jpg" target="_blank">
       <img src="/assets/images/dog/mikela.jpg" alt="Mikela">
     </a>
-    <figcaption>Mikela (2005–2020)</sup></figcaption>
+    <figcaption>Mikela (2005–2020)</figcaption>
   </figure>
 
   <figure>

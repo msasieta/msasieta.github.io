@@ -150,41 +150,31 @@ a:hover {
    =========================== */
 .profile-header {
   display: flex;
-  align-items: center;
-  gap: 1.4rem;
+  flex-direction: column;   /* stack image above text */
+  align-items: center;      /* center image & text horizontally */
+  text-align: center;       /* center text */
+  gap: 1rem;                /* spacing between image and text */
   margin-bottom: 2rem;
-  flex-wrap: nowrap;   /* don’t let it wrap */
 }
 
 .profile-header .profile-photo {
-  width: 400px !important;
-  height: 300px !important;
-  max-width: none !important;
-  margin: 0 !important;
-  border-radius: 0px;   /* less rounded corners */
+  width: 220px;             /* nice medium size */
+  height: auto;             /* auto height keeps proportions */
+  border-radius: 6px;
   object-fit: cover;
-  display: block;
-  filter: grayscale(50%);
+  filter: grayscale(30%);   /* optional subtle black & white */
+  margin: 0 auto;
 }
 
-/* Let text take the remaining width */
 .profile-text {
-  flex: 1 1 auto;           /* grow to fill space */
-  min-width: 0;             /* allow shrinking instead of wrapping */
+  max-width: 600px;         /* keep paragraphs from stretching too wide */
 }
+
 
 /* Stack nicely on small screens */
 @media (max-width: 640px) {
   .profile-header {
-    flex-wrap: wrap;        /* now wrapping is allowed */
-  }
-  .profile-text {
-    margin-top: 0.6rem;
-  }
-}
-@media (max-width: 640px) {
-  .profile-header {
-    flex-wrap: wrap;   /* allow stacking on phones/tablets */
+    flex-wrap: nowrap;   /* allow stacking on phones/tablets */
   }
 }
 

@@ -148,6 +148,7 @@ a:hover {
   border-radius: 0px;   /* less rounded corners */
   object-fit: cover;
   display: block;
+  filter: grayscale(100%);
 }
 
 /* Text next to photo */

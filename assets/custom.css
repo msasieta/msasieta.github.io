@@ -141,13 +141,14 @@ a:hover {
 }
 
 .profile-header .profile-photo {
-  width: 120px !important;
-  height: 120px !important;
+  width: 150px !important;
+  height: 150px !important;
   max-width: none !important;
   margin: 0 !important;
-  border-radius: 12px;
+  border-radius: 6px;   /* less rounded corners */
   object-fit: cover;
   display: block;
+}
 
 /* Text next to photo */
 .profile-text h1 {
@@ -160,3 +161,11 @@ a:hover {
   margin: 0.2rem 0;
   font-size: 0.95rem;
 }
+
+@media (max-width: 480px) {
+  .profile-header .profile-photo {
+    width: 110px !important;
+    height: 110px !important;
+  }
+}
+

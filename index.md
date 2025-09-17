@@ -9,7 +9,7 @@ permalink: /
 
   <div class="profile-text">
     <h1>Martin Sasieta</h1>
-    <p><em>Postdoctoral Researcher<br>
+    <p><em>Postdoctoral Scholar<br>
     University of California, Berkeley</em></p>
     <p><a href="mailto:msasieta@berkeley.edu">msasieta@berkeley.edu</a></p>
   </div>

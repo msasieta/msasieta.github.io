@@ -6,5 +6,5 @@ permalink: /notes/
 
 
 
-Here are some of my lecture notes.  
+Here are some fun notes.  
 *(Updates coming soon.)*

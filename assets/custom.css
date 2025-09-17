@@ -167,18 +167,21 @@ a:hover {
   filter: grayscale(50%);
 }
 
-/* Text next to photo */
-.profile-text h1 {
-  margin: 0 0 0.2rem;
-  font-weight: 300;
-  font-size: 1.6rem;   /* a bit smaller than before */
+/* Let text take the remaining width */
+.profile-text {
+  flex: 1 1 auto;           /* grow to fill space */
+  min-width: 0;             /* allow shrinking instead of wrapping */
 }
 
-.profile-text p {
-  margin: 0.2rem 0;
-  font-size: 0.95rem;
+/* Stack nicely on small screens */
+@media (max-width: 640px) {
+  .profile-header {
+    flex-wrap: wrap;        /* now wrapping is allowed */
+  }
+  .profile-text {
+    margin-top: 0.6rem;
+  }
 }
-
 @media (max-width: 480px) {
   .profile-header .profile-photo {
     width: 110px !important;

@@ -141,8 +141,8 @@ a:hover {
 
 /* Profile photo */
 .profile-photo {
-  width: 90px;        /* smaller size */
-  height: 90px;
+  width: 100px;        /* smaller size */
+  height: 100px;
   border-radius: 50%;  /* circular */
   object-fit: cover;   /* crop nicely */
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);

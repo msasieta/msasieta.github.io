@@ -9,7 +9,7 @@ permalink: /
 
   <div class="profile-text">
     <h1>Martin Sasieta</h1>
-    <p><em>Postdoctoral Researcher in Quantum Gravity<br>
+    <p><em>Postdoctoral Researcher<br>
     University of California, Berkeley</em></p>
     <p><a href="mailto:msasieta@berkeley.edu">msasieta@berkeley.edu</a></p>
   </div>

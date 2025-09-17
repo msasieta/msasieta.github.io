@@ -158,11 +158,11 @@ a:hover {
 }
 
 .profile-header .profile-photo {
-  width: 220px;             /* nice medium size */
-  height: auto;             /* auto height keeps proportions */
-  border-radius: 6px;
+  width: 400px;             /* nice medium size */
+  height: 300px;             /* auto height keeps proportions */
+  border-radius: 0px;
   object-fit: cover;
-  filter: grayscale(30%);   /* optional subtle black & white */
+  filter: grayscale(50%);   /* optional subtle black & white */
   margin: 0 auto;
 }
 

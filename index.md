@@ -4,13 +4,17 @@ title: "Home"
 permalink: /
 ---
 
+<div class="profile-header">
+  <img src="/assets/images/profile.jpg" alt="Martin Sasieta" class="profile-photo">
 
-# Martin Sasieta
-*Postdoctoral Researcher, Quantum Gravity*
+  <div class="profile-text">
+    <h1>Martin Sasieta</h1>
+    <p><em>Postdoctoral Researcher in Quantum Gravity<br>
+    University of California, Berkeley</em></p>
+    <p><a href="mailto:msasieta@berkeley.edu">msasieta@berkeley.edu</a></p>
+  </div>
+</div>
 
-Welcome! I study quantum gravity, black holes, and holography (AdS/CFT).
+---
 
-- See **[Research](/research)** for current projects and interests.
-- Browse **[Publications](/publications)** with links to arXiv.
-- Find materials under **[Talks](/talks)** and **[Teaching](/teaching)**.
-- Grab a one‑page **[CV](/cv)**.
+Welcome to my personal homepage.  

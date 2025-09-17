@@ -20,6 +20,7 @@ minima:
   # force header order
   nav_pages:
     - index.md   # Home
+    - about.md   # About
     - notes.md   # Notes
     - misc.md    # Misc
     - cv.md      # CV

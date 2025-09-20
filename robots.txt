@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://msasieta.github.io/sitemap.xml

@@ -8,7 +8,7 @@ url: "https://msasieta.github.io"   # ← change to your username site or custom
 baseurl: ""                                 # keep empty for user site
 
 google_site_verification: "shE0rvKqTEqGRHXvdzaDod0sHekIfbF9MUmkQsUTCw4"
-google_analytics: G-12169100719
+#google_analytics: G-12169100719
 
 
 # Build settings

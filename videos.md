@@ -4,10 +4,8 @@ title: Videos
 permalink: /videos/
 ---
 
-## Talks
-
 ### ER toward typical EPR (IAS Workshop, 2025)
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 900px;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 720px;">
   <iframe
     src="https://www.youtube.com/embed/SS4Sg-Ybrig"
     frameborder="0"
@@ -17,7 +15,7 @@ permalink: /videos/
 </div>
 
 ### ER for typical EPR (Eurostrings, 2025)
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 900px;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 720px;">
   <iframe
     src="https://www.youtube.com/embed/yrFJo-Ofxpo"
     frameborder="0"
@@ -28,7 +26,7 @@ permalink: /videos/
 
 
 ### ER for typical EPR (IIP Natal, 2025)
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 900px;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 720px;">
   <iframe
     src="https://www.youtube.com/embed/p2R6IQEwOhw"
     frameborder="0"

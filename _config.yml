@@ -23,7 +23,6 @@ minima:
   nav_pages:
     - index.md   # Home
     - notes.md   # Notes
-    - videos.md  # Videos
     - misc.md    # Misc
     - cv.md      # CV
     - blog.md    # Blog

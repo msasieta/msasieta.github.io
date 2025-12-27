@@ -4,6 +4,7 @@ title: "Interesting papers — Dec 27, 2025"
 tags: [black-holes, holography]
 ---
 
+---
 ### Paper 1  
 **Title:** Probing Stringy Horizons with Pole-Skipping in Non-Maximal Chaotic Systems
 **Authors** Ping Gao, Hong Liu

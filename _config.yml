@@ -6,6 +6,8 @@ remote_theme: jekyll/minima
 # Site-wide settings
 url: "https://msasieta.github.io"   # ← change to your username site or custom domain
 baseurl: ""                                 # keep empty for user site
+permalink: /blog/:year/:month/:day/:title/
+excerpt_separator: "\n\n"
 
 google_site_verification: "shE0rvKqTEqGRHXvdzaDod0sHekIfbF9MUmkQsUTCw4"
 #google_analytics: G-12169100719
@@ -24,6 +26,8 @@ minima:
     - videos.md  # Videos
     - misc.md    # Misc
     - cv.md      # CV
+    - blog.md    # Blog
+    
 
   # footer date format (optional)
   date_format: "%b %-d, %Y"

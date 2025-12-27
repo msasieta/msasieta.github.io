@@ -1,29 +1,15 @@
 ---
 layout: post
 title: "Interesting papers — Dec 27, 2025"
-date: 2025-12-27
 tags: [black-holes, holography]
 ---
 
-**TL;DR:** Interesting idea, but the interior interpretation feels underconstrained.
-
-
 ### Paper 1  
-**Title:** Something about interiors  
-**Link:** https://arxiv.org/abs/XXXX.XXXXX  
+**Title:** Probing Stringy Horizons with Pole-Skipping in Non-Maximal Chaotic Systems
+**Authors** Ping Gao, Hong Liu
+**Link:** https://arxiv.org/abs/2512.20700
 
-- Nice idea connecting interior volume to entropy.
-- Feels very semiclassical; unclear what survives nonperturbatively.
-
----
-
-### Paper 2  
-**Title:** Another recent preprint  
-**Link:** https://arxiv.org/abs/YYYY.YYYYY  
-
-- Conceptually clean.
-- The state-counting interpretation feels ambiguous.
+- Interesting paper on pole-skipping and relation to fast scrambling.
+- Main upshot is that at infinite coupling the Lyapunov is determined by the exchange of the stress energy, whereas at finite coupling it is determined by 
 
 ---
-
-### General thought

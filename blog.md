@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notes on recent papers
+title: Notes
 permalink: /blog/
 ---
 

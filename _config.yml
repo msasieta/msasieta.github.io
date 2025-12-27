@@ -23,9 +23,9 @@ minima:
   nav_pages:
     - index.md   # Home
     - notes.md   # Notes
-    - misc.md    # Misc
     - cv.md      # CV
     - blog.md    # Blog
+    - misc.md    # Misc
     
 
   # footer date format (optional)

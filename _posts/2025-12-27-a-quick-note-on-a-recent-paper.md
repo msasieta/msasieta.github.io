@@ -1,17 +1,29 @@
 ---
 layout: post
-title: "A quick note on a recent paper"
+title: "Interesting papers — Dec 27, 2025"
 date: 2025-12-27
-paper_url: "https://arxiv.org/abs/XXXX.XXXXX"
-tags: [ads-cft, black-holes]
+tags: [black-holes, holography]
 ---
 
 **TL;DR:** Interesting idea, but the interior interpretation feels underconstrained.
 
-What I like:
-- Clean setup
-- Transparent assumptions
 
-What I’m unsure about:
-- How robust this is beyond large-N
+### Paper 1  
+**Title:** Something about interiors  
+**Link:** https://arxiv.org/abs/XXXX.XXXXX  
 
+- Nice idea connecting interior volume to entropy.
+- Feels very semiclassical; unclear what survives nonperturbatively.
+
+---
+
+### Paper 2  
+**Title:** Another recent preprint  
+**Link:** https://arxiv.org/abs/YYYY.YYYYY  
+
+- Conceptually clean.
+- The state-counting interpretation feels ambiguous.
+
+---
+
+### General thought

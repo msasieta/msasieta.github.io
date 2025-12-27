@@ -1,6 +1,6 @@
 ---
 layout: page
-title: arXiv blog
+title: arXiv Blog
 permalink: /blog/
 ---
 

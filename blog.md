@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recent papers
+title: arXiv blog
 permalink: /blog/
 ---
 

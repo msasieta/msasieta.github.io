@@ -1,1 +1,39 @@
-hika
+---
+layout: post
+title: "Interesting papers — Jan 6, 2026"
+tags: [black-holes, holography]
+---
+
+---
+
+### Paper 1  
+**Title:** Duality and Axion Wormholes
+
+**Authors:** Edward Witten
+
+**Link:** <https://arxiv.org/abs/2601.01587>
+
+**Comments:**
+
+- Four dimensional Euclidean wormholes in Einstein gravity and a 2-form B_{μν}. This system is expected to be dual to Einstein gravity and an ``axion'' \phi (U(1)-valued scalar) under Dirac quantization conditions.
+
+- The wormhole solution is semiclassical in the 2-form duality frame but it is non-semiclassical in the scalar frame (this can be argued from dimensional analysis of couplings).
+
+- In a fixed background the paper argues that this is reasonable because the partition functions in the two frames in a wormhole background is related by Poisson resummation of fluxes. 
+
+- The paper derives the low-energy bi-local effective action induced by the axion wormhole (i.e. integrating out the wormhole contribution) in both frames. Can one think of this action in holography as the fundamental interaction between holographic systems needed to stabilize the Euclidean wormhole?  
+  
+---
+
+### Paper 2  
+**Title:** More About the Spontaneous Breaking of Time Reversal in de Sitter Space
+
+**Authors:** Leonard Susskind
+
+**Link:** <https://arxiv.org/abs/2601.01666>
+
+**Comments:**
+
+- 
+
+---

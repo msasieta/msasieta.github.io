@@ -8,6 +8,7 @@ permalink: /misc/
 This is where I keep a few things outside of research.
 
 
+
 <div class="gallery">
   <figure>
     <a href="/assets/images/dog/mikela.jpg" target="_blank">

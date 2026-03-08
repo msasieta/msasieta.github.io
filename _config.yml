@@ -24,7 +24,6 @@ minima:
     - index.md   # Home
     - notes.md   # Notes
     - cv.md      # CV
-    - blog.md    # Blog
     - misc.md    # Misc
     
 

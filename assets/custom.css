@@ -167,12 +167,12 @@ a:hover {
   height: 220px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 30% center; 
+  object-position: 40% center;
   display: block;
   flex-shrink: 0;
   margin: 0;
+  transform: translateY(10px);
 }
-
 /* Stack nicely on small screens */
 @media (max-width: 640px) {
   .profile-header {

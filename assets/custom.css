@@ -167,7 +167,7 @@ a:hover {
   height: 220px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 0% 80%;
+  object-position: -10% 100%;
   display: block;
   flex-shrink: 0;
   margin: 0;

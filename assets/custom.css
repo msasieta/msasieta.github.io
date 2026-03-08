@@ -150,33 +150,43 @@ a:hover {
    =========================== */
 .profile-header {
   display: flex;
-  flex-direction: column;   /* stack image above text */
-  align-items: center;      /* center image & text horizontally */
-  text-align: center;       /* center text */
-  gap: 1rem;                /* spacing between image and text */
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
   margin-bottom: 2rem;
 }
 
-.profile-header .profile-photo {
-  width: 400px;             /* nice medium size */
-  height: 300px;             /* auto height keeps proportions */
-  border-radius: 0px;
-  object-fit: cover;
-  filter: grayscale(30%);   /* optional subtle black & white */
-  margin: 0 auto;
-}
-
 .profile-text {
-  max-width: 650px;         /* keep text line length readable */
-  text-align: left;         /* left-aligned text */
-  width: 100%;              /* makes sure it spans container */
+  flex: 1;
+  max-width: 700px;
+  text-align: left;
 }
 
+.profile-header .profile-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+  margin: 0;
+}
 
 /* Stack nicely on small screens */
 @media (max-width: 640px) {
   .profile-header {
-    flex-wrap: nowrap;   /* allow stacking on phones/tablets */
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .profile-text {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .profile-header .profile-photo {
+    width: 180px;
+    height: 180px;
   }
 }
 

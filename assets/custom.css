@@ -191,3 +191,57 @@ a:hover {
   }
 }
 
+/* ===========================
+   Home Index
+   =========================== */
+.home-index {
+  margin-top: 2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid #ddd;
+}
+
+.home-index-intro {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.home-index-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.home-index-item {
+  display: block;
+  padding: 0.95rem 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #fafafa;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.home-index-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+  text-decoration: none;
+}
+
+.home-index-item strong {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.home-index-item span {
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media (max-width: 640px) {
+  .home-index-grid {
+    grid-template-columns: 1fr;
+  }
+}

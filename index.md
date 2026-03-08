@@ -12,8 +12,7 @@ permalink: /
     <p>
       I am a postdoctoral scholar in theoretical physics at UC Berkeley. I’m interested in quantum gravity and cosmology from the holographic perspective, especially in black holes, quantum chaos, and quantum information.
     </p>
-  </div>
-
+  <div class="profile-photo-wrap">
   <img src="/assets/images/profile.jpg" alt="Martin Sasieta" class="profile-photo">
 </div>
 

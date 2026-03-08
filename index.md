@@ -26,17 +26,17 @@ permalink: /
   <div class="home-index-grid">
     <a href="/notes/" class="home-index-item">
       <strong>Notes</strong>
-      <span>Research notes, ideas, and technical discussions.</span>
+      <span>Research notes, lecture notes, and occasional reviews.</span>
     </a>
 
     <a href="/cv/" class="home-index-item">
       <strong>CV</strong>
-      <span>Background, publications, talks, and professional activity.</span>
+      <span>CV.</span>
     </a>
 
     <a href="/misc/" class="home-index-item">
       <strong>Misc</strong>
-      <span>Additional material, links, and a few other things.</span>
+      <span>Various other things.</span>
     </a>
   </div>
 </div>

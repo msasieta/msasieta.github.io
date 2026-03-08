@@ -5,9 +5,8 @@ permalink: /misc/
 ---
 
 
-This is where I keep a few things outside of research — notes, side projects, and other interests.
+This is where I keep a few things outside of research.
 
-## My Dogs
 
 <div class="gallery">
   <figure>

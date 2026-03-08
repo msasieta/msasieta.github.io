@@ -175,7 +175,7 @@ a:hover {
   height: 100%;
   object-fit: cover;
   object-position: 0% 100%;
-  transform: scale(1.2);
+  transform: translateY(-12px) scale(1.2);
   display: block;
 }
 

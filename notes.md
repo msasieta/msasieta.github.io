@@ -7,4 +7,9 @@ permalink: /notes/
 
 
 Here are some fun notes.  
-*(Updates coming soon.)*
+
+## March 8, 2026
+
+**[Interior Microstates and Black Hole Entropy](/assets/pdf/review_BHentropy.pdf)**
+
+Short description of the review.

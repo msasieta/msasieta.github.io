@@ -249,3 +249,48 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* ===========================
+   Notes Entries
+   =========================== */
+.note-entry {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.note-date {
+  color: #666;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.note-title {
+  font-weight: 400;
+  color: #222;
+  text-decoration: none;
+}
+
+.note-title:hover {
+  text-decoration: underline;
+}
+
+.note-desc {
+  margin-top: 0.2rem;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .note-entry {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+
+  .note-date {
+    font-size: 0.9rem;
+  }
+}

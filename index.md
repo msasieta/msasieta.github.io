@@ -10,17 +10,19 @@ permalink: /
     University of California, Berkeley</em></p>
     <p><a href="mailto:msasieta@berkeley.edu">msasieta@berkeley.edu</a></p>
     <p>
-      I am a postdoctoral scholar in theoretical physics at UC Berkeley. I’m interested in quantum gravity and cosmology from the holographic perspective, especially in black holes, quantum chaos, and quantum information.
+      I am a postdoctoral scholar in theoretical physics at the University of California, Berkeley. I’m interested in quantum gravity and cosmology from the holographic perspective, especially in black holes, quantum chaos, and quantum information.
     </p>
+  </div>
+
   <div class="profile-photo-wrap">
-  <img src="/assets/images/profile.jpg" alt="Martin Sasieta" class="profile-photo">
+    <img src="/assets/images/profile.jpg" alt="Martin Sasieta" class="profile-photo">
+  </div>
 </div>
 
-
 <div class="home-index">
- <p class="home-index-intro">
-  Here you can find notes, my CV, and some miscellaneous material.
-</p>
+  <p class="home-index-intro">
+    Here you can find notes, my CV, and some other things.
+  </p>
 
   <div class="home-index-grid">
     <a href="/notes/" class="home-index-item">
@@ -30,12 +32,12 @@ permalink: /
 
     <a href="/cv/" class="home-index-item">
       <strong>CV</strong>
-      <span>Curriculum vitae.</span>
+      <span>Background, publications, and professional activity.</span>
     </a>
 
     <a href="/misc/" class="home-index-item">
       <strong>Misc</strong>
-      <span>Various other things.</span>
+      <span>Other things.</span>
     </a>
   </div>
 </div>

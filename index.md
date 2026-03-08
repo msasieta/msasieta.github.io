@@ -31,7 +31,7 @@ permalink: /
 
     <a href="/cv/" class="home-index-item">
       <strong>CV</strong>
-      <span>CV.</span>
+      <span>Curriculum vitae.</span>
     </a>
 
     <a href="/misc/" class="home-index-item">

@@ -10,4 +10,4 @@ You can check my most recent CV here:
      onclick="if (typeof gtag === 'function') gtag('event','download',{event_category:'CV', event_label:'/assets/cv.pdf'});">
     <strong>CV (PDF)</strong>
   </a><br>
-  <em>Last updated: September 2025</em>
+  <em>Last updated: March 2026</em>

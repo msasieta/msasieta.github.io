@@ -14,7 +14,7 @@ This is where I keep a few things outside of research — notes, side projects, 
     <a href="/assets/images/dog/mikela.jpg" target="_blank">
       <img src="/assets/images/dog/mikela.jpg" alt="Mikela">
     </a>
-    <figcaption>Mikela (2005–2020)</figcaption>
+    <figcaption>Mikela </figcaption>
   </figure>
 
   <figure>

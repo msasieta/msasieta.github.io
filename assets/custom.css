@@ -174,34 +174,16 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 0% 30%;
+  object-position: 35% 30%;
   transform: scale(1.2);
   display: block;
-}
-
-/* Stack nicely on small screens */
-@media (max-width: 640px) {
-  .profile-header {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-
-  .profile-text {
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .profile-header .profile-photo {
-    width: 180px;
-    height: 180px;
-  }
 }
 
 /* ===========================
    Home Index
    =========================== */
 .home-index {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   padding-top: 1.2rem;
   border-top: 1px solid #ddd;
 }
@@ -246,7 +228,23 @@ a:hover {
   color: #555;
 }
 
+/* Stack nicely on small screens */
 @media (max-width: 640px) {
+  .profile-header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .profile-text {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .profile-photo-wrap {
+    width: 180px;
+    height: 180px;
+  }
+
   .home-index-grid {
     grid-template-columns: 1fr;
   }

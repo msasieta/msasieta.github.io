@@ -10,7 +10,7 @@ permalink: /
     University of California, Berkeley</em></p>
     <p><a href="mailto:msasieta@berkeley.edu">msasieta@berkeley.edu</a></p>
     <p>
-      I am a postdoctoral scholar in theoretical physics at UC Berkeley. I’m interested in quantum gravity and cosmology from the holographic perspective, especially in black holes, quantum chaos, and quantum information.
+     I am a postdoctoral scholar in theoretical physics at UC Berkeley. My research focuses on quantum gravity and quantum cosmology, with particular interests in black holes, quantum chaos, and quantum information.
     </p>
   </div>
 

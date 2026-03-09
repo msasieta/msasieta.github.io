@@ -163,7 +163,7 @@ a:hover {
 }
 
 .profile-photo-wrap {
-  width: 240px;         /* adjust as you like */
+  width: 200px;         /* adjust as you like */
   aspect-ratio: 4 / 5;  /* portrait rectangle */
   overflow: hidden;
   border-radius: 0;

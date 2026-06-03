@@ -31,8 +31,8 @@ This is where I keep a few things outside of research.
     <figcaption>Buha</figcaption>
   </figure>
   <figure>
-    <a href="/assets/images/dog/Bohr.jpg" target="_blank">
-      <img src="/assets/images/dog/Bohr.jpg" alt="Bohr">
+    <a href="/assets/images/dog/bohr.jpg" target="_blank">
+      <img src="/assets/images/dog/bohr.jpg" alt="Bohr">
     </a>
     <figcaption>Bohr</figcaption>
   </figure>

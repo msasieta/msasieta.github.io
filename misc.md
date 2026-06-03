@@ -30,4 +30,10 @@ This is where I keep a few things outside of research.
     </a>
     <figcaption>Buha</figcaption>
   </figure>
+  <figure>
+    <a href="/assets/images/dog/Bohr.jpg" target="_blank">
+      <img src="/assets/images/dog/Bohr.jpg" alt="Bohr">
+    </a>
+    <figcaption>Bohr</figcaption>
+  </figure>
 </div>

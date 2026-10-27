@@ -28,7 +28,7 @@ This is where I keep a few things outside of research.
     <a href="/assets/images/dog/buha.jpg" target="_blank">
       <img src="/assets/images/dog/buha.jpg" alt="Buha">
     </a>
-    <figcaption>Buha (2015-present)</figcaption>
+    <figcaption>Buha (2015-2026)</figcaption>
   </figure>
   <figure>
     <a href="/assets/images/dog/bohr.jpg" target="_blank">
